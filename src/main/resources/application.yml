@@ -1,0 +1,24 @@
+#spring:
+#  data:
+#    mongodb:
+#      database: spring-boot-mvc
+#      host: localhost
+
+#server:
+#  port: 8082
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "info,health,metrics"
+
+logging:
+  level:
+    root: DEBUG
+
+spring:
+  thymeleaf:
+    template-loader-path: classpath:/templates
+    suffix: .html
+    cache: false
